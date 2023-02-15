@@ -1,6 +1,66 @@
-h1 {
-  font-family: "poppins";
-  font-style: normal;
+body {
+  font-family: "poppins", sans-serif;
+  background-color: black;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+    url("../Images/Mendoza.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 200px 0;
+}
+header h1 {
   font-weight: 700;
-  list-style: 144px;
+  font-size: 70px;
+  line-height: 1;
+  margin: 30px 0;
+}
+header h2 {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.5;
+  margin: 0;
+}
+header h3 {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: 4px;
+  margin: 0;
+}
+header a {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  background: white;
+  color: black;
+  text-decoration: none;
+  padding: 16px 32px;
+  display: inline-block;
+  margin-top: 32px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (max-width: 900px) {
+  header {
+    padding: 60px 0;
+  }
+  header h1 {
+    font-size: 36px;
+  }
+  header h2 {
+    font-size: 18px;
+  }
+  header h3 {
+    font-size: 14px;
+  }
 }
