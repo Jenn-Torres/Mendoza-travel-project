@@ -233,4 +233,8 @@ main p {
   .secondary-section {
     padding: 30px;
   }
+
+  .card-header.grid {
+    grid-template-columns: 1fr 1fr;
+  }
 }
