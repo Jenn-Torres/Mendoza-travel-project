@@ -239,9 +239,20 @@ main p {
   main h3 {
     font-size: 30px;
   }
+
   .grid {
     grid-template-columns: 1fr;
     grid-gap: 32px;
+  }
+  .grid-2-columns-gallery {
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    margin-top: 40px;
+  }
+  .grid-3-columns-gallery {
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    margin-bottom: 40px;
   }
 
   .footer-section {
